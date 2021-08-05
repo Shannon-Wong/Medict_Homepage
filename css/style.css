@@ -1,0 +1,589 @@
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+body {
+font-family: 'Bebas', sans-serif;
+margin: 0;
+padding: 0;
+align-items: center;
+}
+@font-face {
+  font-family: 'AvenirBold';
+  src: url('../fonts/AvenirLTStd-Black.otf');
+}
+@font-face {
+  font-family: 'AvenirRegular';
+  src: url('../fonts/AvenirLTStd-Book.otf');
+}
+h1 {
+  font-family: 'Bebas', sans-serif;
+  font-size: 1.2vw;
+}
+
+  h2 {
+    font-family: 'Bebas', sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+    text-align: center;
+  }
+  h3 {
+    font-family: 'Bebas', sans-serif;
+    font-size: .5vw;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  h4 {
+  font-family: 'AvenirRegular';
+  }
+  p {
+    font-family: "Bebas", sans-serif;
+    text-align: center;
+  }
+
+  .navbar2 {
+    background-image: url("../images/Blocked_Banner.png");
+    background-size: cover;
+  }
+  .container-fluid {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .container-fluid-2 {
+    display: flex;
+    background-image: url("../images/Blocked_Banner_V2.png");
+    background-size: cover;
+    height: 700px;
+    align-items: center;
+    align-content: center;
+  }
+  .container-fluid-3 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 3%;
+  }
+  .container-fluid-4 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: #EFF2F7;
+  }
+
+.rowdiv {
+  justify-content: center;
+  align-items: center;
+}
+
+.image-side {
+min-width: 10vw;
+width: 55vw;
+display: flex;
+float: right;
+top: 200px;
+}
+.carddev {
+width: 80%;
+height: auto;
+left: 100px;
+border: white !important;
+}
+.card-header {
+background-color:transparent !important;
+font-family: "Bebas Neue";
+font-size: 75px;
+border-color: transparent !important;
+}
+.card-title {
+font-family: 'AvenirRegular';
+font-size: 12px;
+}
+.col-buttons {
+justify-content: center !important;
+}
+.card-bottom-text {
+margin-top: 2%;
+color: #009DDF;
+font-family: "Bebas Neue";
+font-size: 12px;
+font-weight: lighter;
+}
+.card-img-top {
+  margin-left: 10%;
+}
+.col-table {
+  width: 80%;
+  padding: 15px !important;
+}
+
+.btn-primary1{
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: #3C4858 !important;
+  border-color:  #3C4858 !important;
+  font-family: "Bebas Neue";
+  font-weight: lighter !important;
+  color: white;
+  padding: 10px 50px !important;
+  margin-top: 4%;
+  display: flex;
+}
+.btn-primary2{
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: white !important;
+  border-color:  #3C4858 !important;
+  font-family: "Bebas Neue";
+  font-weight: lighter !important;
+  color:#3C4858;
+  padding: 10px 50px !important;
+  margin-left: 45px;
+  margin-top: 4%;
+  display: flex;
+}
+
+
+
+.customNav {
+  position: fixed;
+  width: 100%;
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+}
+.navbar {
+  background-color: #C2CEDB;
+  font-family: 'AvenirRegular' !important;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+  font-size: 1em;
+  padding: 5px 5px;
+}
+.navbar-brand img {
+  padding-right: 15px;
+  width: 100%;
+}
+.nav-item {
+  margin: 0px 15px;
+}
+
+/* Navigation dropdown menu */
+.dropdown-menu {
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+}
+
+.editprodiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  align-items: baseline;
+}
+
+.papahero {
+  display: flex;
+}
+
+.getstarted {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.carddiv {
+  overflow: scroll;
+/*  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row; */
+  overflow-x: scroll;
+  overflow-y: hidden;
+  flex-wrap: nowrap !important;
+  flex-direction: row !important;
+/*  white-space: nowrap; */
+}
+
+.cardscroll {
+  min-height: 393px;
+  min-width: 322px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none !important;
+}
+
+.cardq {
+  min-height: 303px;
+  min-width: 322;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none !important;
+}
+
+.blue {
+  background-color: #009DDF !important;
+  color: #FFFFFF !important;
+}
+
+.horizontalscroll h3 {
+  font-size: 20px !important;
+  font-family: 'Bebas Neue';
+  padding-top: 30px;
+}
+.horizontalscroll h2 {
+  font-size: 40px !important;
+  font-family: 'Bebas Neue';
+}
+
+.questions h3 {
+  font-size: 20px !important;
+  font-family: 'Bebas Neue';
+  padding-top: 30px;
+}
+.questiontitle {
+  font-size: 75px !important;
+  font-family: 'Bebas Neue'!important;
+}
+.intro {
+  font-size: 75px !important;
+  font-family: 'Bebas Neue'!important;
+}
+
+.appointment h1 {
+  font-size: 75px !important;
+  font-family: 'Bebas Neue' !important;
+}
+
+.dropdowns {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pleaseleft {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.down {
+  width: 150px;
+}
+
+h6 {
+  justify-content: start;
+}
+
+.form-inline {
+  height: 30px;
+}
+
+.buttonappt {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  text-align: center;
+  font-family: 'Bebas Neue';
+  color: #FFFFFF;
+  background-color: #1f2d3d !important;
+  border: none !important;
+  margin-left: 0px;
+}
+
+.findtrans {
+  width: 245px;
+  text-align: center;
+  font-family: 'Bebas Neue';
+  color: #ffffff;
+  background-color: #3c4858 !important;
+  border: none !important;
+}
+
+.linepic {
+  height: 50%;
+}
+.calpic {
+  height: 150px;
+  width: auto;
+  padding-bottom: 15px;
+}
+.transpic {
+  height: 150px;
+  width: auto;
+  padding-bottom: 15px;
+}
+.insurepic {
+  height: 150px;
+  width: auto;
+  padding-bottom: 15px;
+}
+.pricepic {
+  height: 150px;
+  width: auto;
+  padding-bottom: 15px;
+}
+.paypic {
+  height: 150px;
+  width: auto;
+  padding-bottom: 15px;
+}
+.reviewpic {
+  height: 150px;
+  width: auto;
+  padding-bottom: 15px;
+}
+.chatpic {
+  height: 115px;
+  width: auto;
+}
+.callpic {
+  height: 115px;
+  width: auto;
+}
+.emailpic {
+  height: 115px;
+  width: auto;
+}
+
+.questions {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  color:black;
+}
+
+.bottomnavbar {
+  text-align: center;  
+  color: black;
+  background-color:white;
+  bottom: 0;
+  width: 100%;
+  margin-top: 2%;
+  font-size: .5vw;
+}
+
+.column {
+  width: 75%;
+}
+.table-responsive {
+  width: 60% !important;
+  justify-content: center;
+  align-items: center;
+}
+.sectionhero {
+  background-color: #EFF2F7;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 5%
+}
+
+.peopleimg {
+  width: 25%;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.anotherherobox {
+  align-items: center;
+  text-align: center;
+  text-overflow: inherit;
+  }
+.people {
+font-size: 12px;
+}
+.peoplesmallwords {
+  margin-bottom: 2%;
+}
+.peoplesmall {
+color:#698781;
+font-family: "Bebas Neue";
+font-size: 12px;
+font-weight: lighter;
+}
+.peoplesmall2 {
+  color:#698781;
+  font-family: "Bebas Neue";
+  font-size: 12px;
+  font-weight: lighter;
+}
+.cardh3 {
+font-family: "Bebas Neue";
+font-size: 32px;
+}
+.greycardheader {
+  font-family: "Bebas Neue";
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .intro {
+      font-size: 65px !important;
+      font-family: 'Bebas Neue' !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+  .intro {
+    font-size: 50px !important;
+    font-family: 'Bebas Neue' !important;
+  }
+  .john {
+    width: 275px;
+    height: auto;
+  }
+  .calpic {
+    height: 100px;
+    width: auto;
+    padding-bottom: 15px;
+  }
+  .transpic {
+    height: 100px;
+    width: auto;
+    padding-bottom: 15px;
+  }
+  .insurepic {
+    height: 100px;
+    width: auto;
+    padding-bottom: 15px;
+  }
+  .pricepic {
+    height: 100px;
+    width: auto;
+    padding-bottom: 15px;
+  }
+  .paypic {
+    height: 100px;
+    width: auto;
+    padding-bottom: 15px;
+  }
+  .reviewpic {
+    height: 100px;
+    width: auto;
+    padding-bottom: 15px;
+  }
+  .chatpic {
+    height: 100px;
+    width: auto;
+  }
+  .callpic {
+    height: 100px;
+    width: auto;
+  }
+  .emailpic {
+    height: 100px;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .intro {
+    font-size: 30px !important;
+    font-family: 'Bebas Neue' !important;
+  }
+  .john {
+    width: 200px;
+    height: auto;
+  }
+  .findtrans {
+    width: 175px;
+    font-size: 15px !important;
+  }
+  .editpro {
+    font-size: 12px;
+  }
+  .dropdowns {
+    flex-wrap: wrap;
+  }
+  .down {
+    width: 250px !important;
+    margin-bottom: 15px;
+  }
+  .linepic {
+    display: none;
+  }
+}
+@media only screen and (max-width: 529px) {
+  .horizontalscroll h3 {
+    font-size: 15px !important;
+  }
+  .horizontalscroll p {
+    font-size: 12px !important;
+  }
+  .calpic {
+    height: 75px;
+    width: auto;
+    padding-bottom: 15px;
+  }
+  .transpic {
+    height: 75px;
+    width: auto;
+    padding-bottom: 15px;
+  }
+  .insurepic {
+    height: 75px;
+    width: auto;
+    padding-bottom: 15px;
+  }
+  .pricepic {
+    height: 75px;
+    width: auto;
+    padding-bottom: 15px;
+  }
+  .paypic {
+    height: 75px;
+    width: auto;
+    padding-bottom: 15px;
+  }
+  .reviewpic {
+    height: 75px;
+    width: auto;
+    padding-bottom: 15px;
+  }
+  .chatpic {
+    height: 50px;
+    width: auto;
+  }
+  .callpic {
+    height: 50px;
+    width: auto;
+  }
+  .emailpic {
+    height: 50px;
+    width: auto;
+  }
+  .down {
+    width: 240px !important;
+    margin-bottom: 20px;
+  }
+  .questionne p {
+    font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .down {
+    width: 480px !important;
+  }
+}
